@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav >
+            <ul class="menu" >
+                <li><a href="index.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="javascript.html">Javascript</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>CSS</h2>
+            <p> 
+                significa Cascading Style Sheet(Hoja de Estilos en Cascada) <br>
+                Es un lenguaje de definición de estilos que provee diseño y presentacion a la web
+            </p>
+            <p>l codigo css se escribe en reglas de estilos, una regla se compone de las siguientes dos partes</p>
+            <ol>
+                <li>El selector al que se aplica la regla</li>
+                <li>El bloque de declaraciones de estilos</li>
+            </ol>
+            <p>para dar estolo por medio de un selector lo hago mediante la siguiente marca</p>
+            <pre>
+                selector{
+                    propiedad: valor;
+                    otraPropiedad: otroValor;
+                }
+            </pre>
+            <h3>Selectores</h3>
+            <p>los selectores son cualquier etiqueta HTML a la que se laplica una regla CSS</p>
+            <h4>Tipos de selectores</h4>
+            <ol>
+                <li>Selector de etiquetas</li>
+                <li>Selecotr de identificador</li>
+                <li>selector de clases</li>
+                <li>selectores universales </li>
+                <li>selectores descendientes</li>
+            </ol>
+
+            <h3>selector de identificador</h3>
+            <p>Es cualquier etiqueta HTML que tiene asignado un valor en el atributo #ID. como dijimos anteriormente
+                solo deben existir un solo id por selector.
+            </p>
+
+            <h3>selectores de clase</h3>
+            <p>Es cualquier etiqueta HTML que tiene asignado un valor en el atributo "class".</p>
+
+            <h3>selector universal</h3>
+            <p>aplica los cambios a todas las etiquetas HTML</p>
+
+            <h4>Pseudoclases</h4>
+            <p>son estados de las etiquetas HTML, por ejemplo, accedemos mediante el punto delante de la clase ".etiqueta: Pseudoclases"</p>
+            <ul>
+                <li>Cuando tenemos el puntero sobre la etiqueta: hover</li>
+                <li>cuando el elemento es el primer descendiente del contenedor: first-child</li>
+                <li>cuando el elemento es el ultimo descendiente del contenedor: last-child</li>
+                <li>cuando el elemento es el enécimo descendiente del contenedor: nth-child</li>
+            </ul>
+
+            <hr>
+            <h3>Selector descendiente</h3>
+            <p>el espacio en blanco en CSS es el selector de hijos descendientes. Aplica estilos al segundo selector, que es el descendiente del primer seleccgor, es decir el segundo que se encuentra contenido dentro del primero en la estuctura del documento HTML</p>
+            
+            <div class="mercaderias">
+                <h5>COMPRAS</h5>
+                <ol>
+                    <li>Arroz</li>
+                    <li>azucar</li>
+                    <li>carne</li>
+                </ol>
+            </div>
+
+</body>
+</html>
