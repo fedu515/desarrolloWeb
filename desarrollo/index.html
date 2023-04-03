@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav >
+            <ul class="menu" >
+                <li><a href="index.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="javascript.html">Javascript</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <br>
+        <div id="html">
+
+            <div>
+                <h1> <u>HTML:</u> </h1>
+            </div>
+            <article>
+                <p>
+                    HyperText Markup Language(Lenguaje de Hipermarcado de Texto)
+                    <br>
+                    HTML sirve para dar estructura a la pagina
+                    <br>
+                    Comentarios: Es una ayuda tanto memoria como para otros desarrolladores
+                </p>
+
+                <br>
+                <h2><i> Etiquetas </i></h2> <!--hacer una lista -->
+                <ul>
+                    <li><a href="#encabezados"> Encabezado </a> </li>
+                    <li><a href="#textos"> Etiquetas de Texto </a></li>
+                    <li><a href="#listas"> Lista </a></li>
+                    <li><a href="#tablas"> Tablas </a></li>
+                    <li><a href="#enlaces"> Enlaces </a></li>
+                    <li><a href="#imagenes"> Imagenes </a></li>
+                    <li><a href="#audioVideo"> Audio y video </a></li>
+                    <li><a href="#iframes"> Iframes </a></li>
+                    <li><a href="etiquetas"> Etiquetas semanticas </a></li>
+                    <li><a href="#detalles"> Detalles </a></li>
+                </ul>
+            </article>
+            <br>
+            <hr>
+            <br>
+            <article id="encabezados">
+                <h2> <b> <u>Etiquetas de Ecabezado:</u> </b> </h2>
+                <p>
+                <h1>h1: Utilizo para titulo principal</h1>
+                <h2>h2: subtitulos</h2>
+                <h3>h3: subtitulos mas chicos</h3>
+                <h6>h6: subtitulos chiquitititos</h6>
+                <b>solo puede haber un h1 por documento y de h2 a h6 la canitdad que necesitamos.</b>
+                </p>
+            </article>
+            <br>
+            <hr>
+            <br>
+            <article id="textos">
+                <p>
+                <h2><i><u> Etiquetas de Texto </u> </i></h2>
+                <br>
+                <br>
+                Nos permite utilizar y dar formato a texto.
+                <br> <!--hacer una lista -->
+                <ul>
+                    <li><b>p:</b> define el texto </li>
+                    <li><b>b:</b>Nos permite poner un texto en negrita</li>
+                    <li><b>i:</b> <i>nos permite poner un texto en cursiva</i> </li>
+                    <li><b>u</b> <u>nos permite sobrayar un texto </u></li>
+                    <li><b>mark</b><mark> nos permite remarcar el texto </mark> </li>
+                    <li><b>br</b> nos permite realizar un salto de linea</li>
+                    <li><b>hr</b> nos permite dibujar una linea para demarcar sectores</li>
+                </ul>
+                </p>
+            </article>
+            <br>
+            <hr>
+            <br>
+            <article id="listas">
+                <h2><u><i>LISTAS</i></u></h2>
+                <p>
+                    Te permite estructurar contenido de las paginas, pueden crear filas con informacion y marcarlas con
+                    viñetas o numeros.
+                    <br>
+                    1- Listas ordenadas(Order List): Los elementos estan enumerados de 1..n.
+                    La etiqueta es < ol></ ol>.
+                <ol>
+                    <li>Verano</li>
+                    <li>Otoño</li>
+                    <li>Invierno</li>
+                    <li>Primavera</li>
+                </ol>
+                <br>
+
+                <br>
+                2 - Listas desordenadas(Unorder List): Los elementos de la lista se ordenan o enumeran con viñetas.
+                <ul>
+                    <li>Fideo</li>
+                    <li>Arroz</li>
+                    <li>Verduras</li>
+                    <li>Limpieza</li>
+                </ul>
+
+                </p>
+            </article>
+            <br>
+            <hr>
+            <br>
+            <article id="tablas">
+                <div>
+                    <h2 class="etiquetas"><u>TABLAS</u> </h2>
+                </div>
+                <p>Las tablas nos permiten tabular datos. Antes estas servian para maquetar una pagina web <br>
+                    La etiqueta que se usa para crear una tabla es:
+                    <br>
+                </p>
+                <ol>
+                    <li>table: define una tabla</li>
+                    <li>tr: definen las filas de la tabla(table row)</li>
+                    <li>td: celdas de una tabla(table data)</li>
+                    <li>th: filas de encabezado dentro de la primera fila de la tabla, suele usarse para el titulo de la
+                        tabla (table header)</li>
+                </ol>
+
+                <table>
+                    <tr>
+                        <th>Continente</th>
+                        <th>Pais</th>
+                        <th>Ciudad</th>
+                    </tr>
+                    <tr>
+                        <td>America</td>
+                        <td>Argentina</td>
+                        <td>Clorinda</td>
+                    </tr>
+                    <tr>
+                        <td>Europa</td>
+                        <td>Francia</td>
+                        <td>Paris</td>
+                    </tr>
+                </table>
+            </article>
+            <br>
+            <hr>
+            <br>
+
+            <article id="enlaces">
+                <h2><u>Enlaces</u></h2>
+                <span>
+                    Nos permite enlazar documentos html entre sí, podemos enlazar secciones internas del propio
+                    documento o
+                    vincular sitios y aplicaciones externas
+                </span>
+                <pre>
+                        La etiqueta que vamos a utilizar para crear un enlace es la etiqueta < a></ a>.
+                        < a href="">< /a>
+                        href= Hace refrencia a la url del enlace que queremos vincular
+                    </pre>
+                <h4>Enlazado a sercciones externas</h4>
+                <a href="http://www.fighting.com.ar/" target="_blank">Enlace a pagina externa</a>
+                <br><!--El metodo target con atributo blank abre en una pestaña nueva-->
+                <a href="https://www.w3schools.com/html/html_links.asp">Mas info sobre enlaces</a>
+
+                <h4>Enlazar secciones internas de un mismo documento</h4>
+                <pre>
+                        Introducimos el concepto de ID que mas adelante vamos a explayar, este concepto hacer referencia a un identificador
+                        unico dentro del documento. Para poder indicar a que ID deseo dirigirme, bastará con colocar un "#NombreDelID"
+                        dentro del href.
+                        Ejemplo:
+                        < a href="#NombreDelID"></ a>
+
+                    </pre>
+            </article>
+            <br>
+            <hr>
+            <br>
+            <article id="imagenes">
+                <h2><u> Imagenes</u></h2>
+                <p>Aca se va a mostrar una imagen</p>
+                <pre>
+                        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="es un gato">
+                    </pre>
+                <p><b>src </b>Aca va la ruta de la imagen que queremos mostrar. <br>
+                    <b>alt=</b> Dejar un texto alternativo, el cual se mostrara en caso de que la imagen se rompa
+                    MAYORMENTE es importante colocarlo por tema de accesibilidad (este texto sera leido ppor los screen
+                    readers de una persona con discapacidad visual)
+                </p>
+            </article>
+            <br>
+            <hr>
+            <br>
+            <article id="audioVideo">
+                <h2><u>Videos</u></h2>
+                <br>
+                <p> estas etiquetas como lo dice el nombre, sirven para insertar archivos multimedias de audio y video
+                    la etiqueta es <b>Audio</b>
+                    < audio src="" controls></ audio>
+                    < video src="" controls></ video>
+                </p>
+            </article>
+            <br>
+            <hr>
+            <br>
+            <article id="iframe">
+                <h2><u>IFrames</u></h2>
+                <pre>
+                        Permite cargar contenido externo que se encuentren en otros sitios o plataformas, por ejemplo un video de youtube
+                        o un mapa.
+                    </pre>
+                <h3>Video de Youtube</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/J-zP5eyQdsw"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+
+
+                <h3>Mapa</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7081.808978235044!2d-58.990354543358244!3d-27.441087174885926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94450c671698e249%3A0xa6cfc01404034530!2sEIF%2C%20San%20Buenaventura%20del%20Montealto%20380%2C%20H3504%20Resistencia%2C%20Provincia%20del%20Chaco!5e0!3m2!1ses-419!2sar!4v1678818657668!5m2!1ses-419!2sar"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <hr>
+            </article>
+            <br>
+            <hr>
+            <br>
+            <section>
+                <article id="etiqSemantica">
+                    <h2>Etiquetas Semanticas</h2>
+                    <ul>
+                        <li>div: Etiqueta contenedora</li>
+                        <li>header: Representa la cabecerea del contenido principal</li>
+                        <li>nav: Representa un menu de navegación</li>
+                        <li>main: Sección del contenido principal</li>
+                        <li>aside: Representa una seccion de contenido complementario, se utiliza mayormente para poner
+                            una publicidad</li>
+                        <li>article: Representa una serccion de autocontenido (que por si sola se explica)</li>
+                        <li>Section: Representa una seccion de conetido generico</li>
+                        <li>footer: Representa el pie de pagina</li>
+                    </ul>
+                    <h2>Detalles</h2>
+
+                    <p>Es un bloque de contenido que puede alternar su visualización a manera de acordeon</p>
+                    <details>
+                        <summary>mas info</summary>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dignissimos earum vel optio,
+                            ex sunt id rerum velit, cupiditate cumque officia harum ratione est soluta. Est sunt cum
+                            labore ab.</div>
+                    </details>
+                </article>
+            </section>
+        </div>
+        <hr>
+        <br>
+
+    </main>
+
+    <footer>
+        <p>Creación: Francisco</p>
+        <p>Guia: Christian</p>
+    </footer>
+</body>
+
+</html>

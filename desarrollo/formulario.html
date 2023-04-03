@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>       
+        <nav class="menu">                            
+            <ul>
+                <li><a href="index.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="javascript.html">Javascript</a></li>
+            </ul>           
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2><b>INPUT</b></h2>
+            <p>El elemento <b>< input></b> se puede mostra de distintas maneras dependiendo del tipo <i>type</i> de atributo</p>
+            <ul>
+                <li><a href="#text"><i>input type="text"</i></a>: Muestra un campo de entrada de texto de una sola línea</li>
+                <li><a href="#radio"><i>input type="radio"</i></a>:Muestra un botón de radio (para seleccionar una de muchas opciones)</li>
+                <li><a href="#checkbox"><i>input type="checkbox"</i></a>:Muestra una casilla de verificación (para seleccionar cero o más de muchas opciones)</li>
+                <li><a href="#submit"><i>input type="submit"</i></a>:Muestra un botón de envío (para enviar el formulario)</li>
+                <li><a href="#button"><i>input type="button"</i></a>:Muestra un botón en el que se puede hacer click</li>
+            </ul>
+            
+        </section>
+        <br>
+        <hr>
+        <section id="text">
+            <article>
+                <h2><b>Campo de texto</b></h2>
+                <img src="/images/text.JPG" alt="formulario de texto">
+                <p>El siguiente ejemplo se muestra por pantalla de la siguiente manera</p>
+                <br>
+                <form>
+                    <label for="fname">Primer nombre:</label>
+                    <input type="text" name="fname" id="fname"><br>
+                    <label for="sname">Segundo nombre:</label>
+                    <input type="text" name="sname" id="sname"><br>
+                </form>
+            </article>
+        </section>
+        <br>
+        <hr>
+        <br>
+        <section id="radio">
+            <article>
+                <h2><b>Radio Button</b></h2>
+                <p>Los botones de opción le permiten al usuario seleccionar UNA de un número limitado de opciones.</p>
+                
+                <br>
+                <img src="/images/radio.JPG" alt="Radio buttom">
+                <form>
+                    <input type="radio" id="vegetales" name="alimento" value="vegetales">
+                    <label for="vegetales">VEGETALES</label><br>
+                    <input type="radio" id="carne" name="alimento" value="carne">
+                    <label for="carne">CARNES</label>
+                </form>
+                
+            </article>
+        </section>
+        <br>
+        <hr>
+        <br>
+
+        <section id="submit">
+            <article>
+                <h2><b>Submit</b></h2>
+                <p>La etiqueta <input type="submit">un botón para enviar los datos del formulario a un controlador de formulario</p>
+                <br>
+                <img src="images/submit.JPG" alt="Submit">
+                <br>
+                <br>
+
+                <form>
+                    <label for="fname">Primer nombre:</label>
+                    <input type="text" name="fname" id="fname"><br>
+                    <label for="sname">Segundo nombre:</label>
+                    <input type="text" name="sname" id="sname"><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+        </section>
+
+    </main>
+
+    <label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+</body>
+</html>

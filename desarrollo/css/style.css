@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+
+body {
+    background-color:beige;
+    color:black;
+}
+
+main{
+    width: 100%;
+}
+
+ul{
+    width: 100;
+}
+
+#listas{ /* selector de indentificador por medio de id no utilizar para dar estilos*/
+    background-color: aqua;
+}
+
+.etiquetas{ /* selector de clase por medio de clases SI UTILIZAR PARA DAR ESTILOS*/
+    background-color: red;
+    color: black
+}
+
+/*Pseudo clases*/
+.etiquetas:hover{
+    color:blueviolet;
+    cursor: pointer;
+}
+
+.menu { /* formato de menu de navegacion */
+    display: flex;
+    list-style-type: none; /*elimina las viñetas*/
+    margin: 0;
+    padding: 0%;
+    background-color: rgb(159, 161, 161);
+    overflow: hidden;
+}
+
+.menu li a{ /*damos formato a la lista*/
+    display: block;
+    width: 60px;
+    color:whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+ 
+.mercaderias h5{
+    background-color: blue;
+    color: black;
+}
+
+.mercaderias li:first-child{
+    background-color: rgb(150, 47, 78);
+}
