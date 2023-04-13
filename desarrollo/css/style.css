@@ -8,18 +8,23 @@
 body {
     background-color:beige;
     color:black;
+    margin: 30px;
 }
 
 
 
 main{
     width: 100%;
+    margin: 30px 0 0 15px;
 }
 
 ul{
     width: 100;
 }
 
+nav{
+    margin: 0px;
+}
 
 #listas{ /* selector de indentificador por medio de id no utilizar para dar estilos*/
     background-color: aqua;
@@ -46,8 +51,14 @@ ul{
 
 .texto h2{
     color: blue;
+    text-transform: uppercase;
     text-decoration-line: underline;
     text-decoration-line: solid;
+    font-style: bold;
+}
+
+.texto h3{
+    font-style: italic;
 }
 
 .etiquetas{ /* selector de clase por medio de clases SI UTILIZAR PARA DAR ESTILOS*/
@@ -80,7 +91,21 @@ ul{
 
 }
 
- 
+.listado{
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.listado li::marker{
+    content: '>';
+    color: green;
+}
+
+.listado ol::content{
+    background-color: aqua;
+}
+
+
 .mercaderias h5{
     background-color: blue;
     color: black;
