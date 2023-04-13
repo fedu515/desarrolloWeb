@@ -10,6 +10,8 @@ body {
     color:black;
 }
 
+
+
 main{
     width: 100%;
 }
@@ -18,8 +20,34 @@ ul{
     width: 100;
 }
 
+
 #listas{ /* selector de indentificador por medio de id no utilizar para dar estilos*/
     background-color: aqua;
+}
+
+.titulo {
+    color: red;
+    text-align: center;
+}
+
+.copete {
+    background-color: azure;
+    padding: 10px;
+    margin: 50px;
+    border: 500px, solid rgb(52, 46, 139);
+    text-align: justify;    
+    
+  }
+
+
+.texto {
+    text-align: justify;
+}
+
+.texto h2{
+    color: blue;
+    text-decoration-line: underline;
+    text-decoration-line: solid;
 }
 
 .etiquetas{ /* selector de clase por medio de clases SI UTILIZAR PARA DAR ESTILOS*/
